@@ -7,14 +7,12 @@
   font-size: 12px;
   line-height: 18px;
   width: 690px;
-  height: 90px;
   list-style-type: none;
 }
 
 @media screen and (max-width: 768px) {
   .intro__list {
     width: 720px;
-    height: 90px;
     margin: 0;
   }
 }
@@ -22,6 +20,5 @@
 @media screen and (max-width: 320px) {
   .intro__list {
     width: 288px;
-    height: 90px;
   }
 }

@@ -1,0 +1,9 @@
+@media screen and (max-width: 320px) {
+    .footer__links {
+        width: 186px;
+        height: 310px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+       }
+    }

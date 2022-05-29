@@ -11,7 +11,7 @@
   padding-bottom: 0;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 1024px) and(max-width: 1279px) {
   .place__main-text_paragraph {
     width: 456px;
     padding-bottom: 27px;
@@ -22,7 +22,7 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) and(max-width: 1023px) {
   .place__main-text_paragraph {
     width: 352px;
     padding-bottom: 25px;
@@ -34,7 +34,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
   .place__main-text_paragraph {
     font-size: 16px;
     width: 288px;

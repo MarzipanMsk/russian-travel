@@ -1,4 +1,4 @@
-.place__paragraphs_paragraph {
+.place__main-text_paragraph {
   font-weight: 400;
   font-size: 18px;
   line-height: 29.34px;
@@ -7,35 +7,35 @@
   padding-bottom: 26px;
 }
 
-.place__paragraphs_paragraph:last-child {
+.place__main-text_paragraph:last-child {
   padding-bottom: 0;
 }
 
 @media screen and (max-width: 1024px) {
-  .place__paragraphs_paragraph {
+  .place__main-text_paragraph {
     width: 456px;
     padding-bottom: 27px;
   }
 
-  .place__paragraphs_paragraph:last-child {
+  .place__main-text_paragraph:last-child {
     padding-bottom: 0;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .place__paragraphs_paragraph {
+  .place__main-text_paragraph {
     width: 352px;
     padding-bottom: 25px;
     line-height: 26.08px;
   }
 
-  .place__paragraphs_paragraph:last-child {
+  .place__main-text_paragraph:last-child {
     padding-bottom: 0;
   }
 }
 
 @media screen and (max-width: 320px) {
-  .place__paragraphs_paragraph {
+  .place__main-text_paragraph {
     font-size: 16px;
     width: 288px;
     margin-right: 16px;

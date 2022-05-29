@@ -1,32 +1,25 @@
 .places {
     flex-direction: column;
     width: 984px;
-    padding-top: 92px;
-    padding-left: 148px;
-    padding-right: 148px;
-    margin: auto;
+    margin: 92px auto;
 }
 
 @media screen and (max-width: 1024px) {
     .places {
         width: 928px;
-        padding-left: 48px;
-        padding-right: 48px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .places {
         width: 720px;
-        padding-left: 24px;
-        padding-right: 24px;
+        margin: 90px auto;
     }
   }
 
   @media screen and (max-width: 320px) {
     .places {
         width: 320px;
-        padding-left: 0;
-        padding-right: 0;
+        margin: 66px 0;
     }
   }

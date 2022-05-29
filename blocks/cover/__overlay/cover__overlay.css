@@ -4,7 +4,6 @@
   background-color: rgba(0, 0, 0, .3);
   position: absolute;
   background-position: center;
-  margin: 0;
 }
 
 .cover__overlay:hover {
@@ -18,8 +17,6 @@
   .cover__overlay {
     width: 1024px;
     height: 640px;
-    padding-left: 0;
-    padding-right: 0;
   }
 }
 

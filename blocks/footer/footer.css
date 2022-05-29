@@ -2,8 +2,8 @@
     width: 1184px;
     display: flex;
     justify-content: space-between;
-    padding: 92px 48px 24px 48px;
-    position: relative;
+    margin: 92px auto 24px auto;
+    
 }
 
 @media screen and (max-width: 1024px) {
@@ -15,9 +15,7 @@
   @media screen and (max-width: 768px) {
     .footer {
       width: 720px;
-      padding-right: 24px;
-      padding-left: 24px;
-      padding-top: 88px;
+      margin: 88px auto 24px auto;
     }
   }
 
@@ -25,9 +23,7 @@
     .footer {
       width: 186px;
       flex-direction: column;
-      margin: 0;
-      padding-top: 66px;
-      padding-right: 0;
+      margin: 64px auto 24px 16px;
     }
   }
 

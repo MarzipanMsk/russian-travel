@@ -3,8 +3,8 @@
   height: 615px;
   border: none;
   padding-top: 64px;
-  margin: auto;
   object-fit: cover; 
+  vertical-align: bottom;
 }
 
 @media screen and (max-width: 1024px) {

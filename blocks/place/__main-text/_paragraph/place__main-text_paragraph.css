@@ -22,7 +22,7 @@
   }
 }
 
-@media screen and (min-width: 768px) and(max-width: 1023px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
   .place__main-text_paragraph {
     width: 352px;
     padding-bottom: 25px;

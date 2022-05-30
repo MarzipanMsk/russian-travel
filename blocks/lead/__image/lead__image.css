@@ -2,8 +2,9 @@
   width: 100%;
   border: none;
   padding-top: 64px;
-  object-fit: contain; 
+  object-fit: cover; 
   vertical-align: bottom;
+  margin: 0 auto;
 }
 
 @media screen and (max-width: 767px) {

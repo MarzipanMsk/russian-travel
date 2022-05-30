@@ -9,8 +9,6 @@
     .header {
         width: calc(100% - 96px);
         margin: 28px auto 48px auto;
-        padding-left: 48px;
-        padding-right: 48px;
     }
 }
 

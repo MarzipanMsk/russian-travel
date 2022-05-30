@@ -20,13 +20,13 @@
     .place {
         grid-template-columns: 340px 1fr;
         gap: 48px 28px;
-    }  
-  }
+    }
+}
 
-  @media screen and (max-width: 767px) {
+@media screen and (max-width: 767px) {
     .place {
         grid-template-columns: 1fr;
-        gap: 32px;  
+        gap: 32px;
         padding-bottom: 50px;
     }
 }

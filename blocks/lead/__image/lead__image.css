@@ -6,10 +6,3 @@
   vertical-align: bottom;
   margin: 0 auto;
 }
-
-@media screen and (max-width: 767px) {
-.lead__image {
-      margin-left: -1px;
-      margin-right: -2px;
-  }
-}

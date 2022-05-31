@@ -1,4 +1,4 @@
-.place__main-text_paragraph {
+.place__paragraph {
   font-weight: 400;
   font-size: 18px;
   line-height: 29.34px;
@@ -7,35 +7,35 @@
   padding-bottom: 26px;
 }
 
-.place__main-text_paragraph:last-child {
+.place__paragraph:last-child {
   padding-bottom: 0;
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
-  .place__main-text_paragraph {
+  .place__paragraph {
     max-width: 456px;
     padding-bottom: 27px;
   }
 
-  .place__main-text_paragraph:last-child {
+  .place__paragraph:last-child {
     padding-bottom: 0;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  .place__main-text_paragraph {
+  .place__paragraph {
     max-width: 352px;
     padding-bottom: 25px;
     line-height: 26.08px;
   }
 
-  .place__main-text_paragraph:last-child {
+  .place__paragraph:last-child {
     padding-bottom: 0;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .place__main-text_paragraph {
+  .place__paragraph {
     font-size: 16px;
     max-width: 288px;
     margin-right: 16px;

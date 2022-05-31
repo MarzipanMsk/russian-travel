@@ -6,12 +6,20 @@
   text-align: center;
   margin: 0 auto;
   padding-top: 32px;
+  padding-bottom: 245px;
   z-index: 3;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .cover__subtitle {
+    padding-bottom: 195px;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .cover__subtitle {
-    width: 360px;
+    max-width: 360px;
+    padding-bottom: 115px;
   }
 }
 
@@ -21,5 +29,6 @@
     font-size: 14px;
     line-height: 16px;
     padding-top: 16px;
+    padding-bottom: 33px;
   }
 }

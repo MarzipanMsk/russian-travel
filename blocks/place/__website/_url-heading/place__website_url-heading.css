@@ -1,5 +1,5 @@
 .place__website_url-heading {
-    width: 456px;
+    max-width: 456px;
     font-weight: 400;
     font-size: 12px;
     line-height: 20.4px;
@@ -12,12 +12,12 @@
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     .place__website_url-heading {
-        width: 320px;
+        max-width: 320px;
     }
 }
 
 @media screen and (max-width: 767px) {
     .place__website_url-heading {
-        width: 288px;
+        max-width: 288px;
     }
 }

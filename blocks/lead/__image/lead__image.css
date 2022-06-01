@@ -2,7 +2,25 @@
   width: 100%;
   border: none;
   padding-top: 64px;
-  object-fit: cover; 
+  object-fit: cover;
   vertical-align: bottom;
   margin: 0 auto;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .lead__image {
+    padding-top: 56px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .lead__image {
+    padding-top: 56px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .lead__image {
+    padding-top: 40px;
+  }
 }
